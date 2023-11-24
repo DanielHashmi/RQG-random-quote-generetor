@@ -1,0 +1,2 @@
+# RQG random quote generetor
+ 
