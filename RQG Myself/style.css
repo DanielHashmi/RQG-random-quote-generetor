@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu',sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 25vh;
+
+}
+.div{
+    background-color:cadetblue;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black; 
+    border-radius: 20px;
+}
+.para{
+    font-size: 25px;
+    font-style: italic;
+}
+.para1{
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: italic;
+    position: relative;
+    bottom: 90px;
+}
+.btn{
+    height: 30px;
+    width: 80%;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+.btn:hover{
+    height: 33px;
+    width: 81%;
+    background-color:rgb(216, 204, 189);
+}
